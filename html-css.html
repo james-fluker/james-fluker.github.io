@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>james-fluker.github io</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="tech.html">Tech</a>
+  <a href="core.html">Core</a>
+  <a href="te-houtaewa.html" class="right">Te Houtaewa</a>
+  </div>
+
+<div class="header">
+  <h1>james-fluker.github.io</h1>
+  <p>A home for my adventure in coding </p>
+</div>
+
+<div class="body">
+  <div class="row">
+    <div class="main">
+      <h2>Using classes and IDs</h2>
+      <p>It's important to use the right HTML elements to structure your content properly.</p>
+      <p>Classes and IDs are commonly used in web design to apply styles and functions to specific elements on the page. In this post, I'll explore the best practices associated with using classes vs IDs.</p>
+      <p>Classes group elements together when they share similar styles or functions. You can use them in HTML by adding a class attribute is added to an element - usually with a name that describes the function. You could style all of the headings on each page of a website with a specific font by adding a heading class to each heading HTML element.</p>
+      
+      <div></div>
+      <img src="images/classes-to-style-headings.png" alt="placeholder">
+      <div></div>
+      
+      <p>You can then use your CSS to target the class and apply styles to every element with that class.</p>
+      
+      <div></div>
+      <img src="images/css-styling-for-heading.png" alt="placeholder">
+      <div></div>
+      
+      <p>IDs are used with a specific page element. Rather than grouping many elements together they alter a specific function of an element. In the HTML you add an ID attribute to an element, and give it a unique name based on its location or function. You might want to add a button to your page that scrolled to a specific section - you could use an ID to achieve this.</p>
+      
+      <div></div>
+      <img src="images/id-function-scrollto.png">
+      <div></div>
+      
+      <p>You could then use JavaScript to target the ID and create a function that would scroll the user to that section.</p>
+      
+      <div></div>
+      <img src="images/javascript-scrollto-example.png" alt="placeholder">
+      <div></div>
+      
+      <p>
+        So, how do you know when you should use classes vs. IDs? Here are some general best practices:<br>
+        <ol>
+          <li>Use classes to group elements that have similar styles or functions. That way you can can apply styles to multiple elements at once - meaning you don't have to style it in your HTML.</li>
+          <li>Use IDs to target specific page elements like anchor links or JavaScript functions. Each ID should be unique and descriptive so that you know what the element is used for.</li>
+          <li>Don't use IDs for styling. It's possible to target IDs in CSS, but its generally considered bad practice to do so. Use classes to style your elements as it's easier to maintain.</li>
+        </ol>
+      </p>
+      </div>
+  </div>
+</div>
+
+</body>

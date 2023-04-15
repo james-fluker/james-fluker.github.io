@@ -8,16 +8,6 @@ body {
   background-color: #FFFFFF;
 }
 
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #b8eb53;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-}
-
 .fakeimg {
   background-color: #aaa;
   width: 100%;
@@ -76,6 +66,11 @@ body {
 .navbar a:hover {
   background-color: #e8ffc5;
   color: black;
+}
+
+ol {
+  list-style-type: decimal;
+  list-style-position: outside;
 }
 
 .row {  
