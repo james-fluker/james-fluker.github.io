@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>james-fluker.github io</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="styles/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div class="header">
+  <h1>james-fluker.github.io</h1>
+  <p>A home for my adventure in coding </p>
+</div>
+
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="tech.html">Tech</a>
+  <a href="core.html">Core</a>
+  <a href="te-houtaewa.html" class="right">Te Houtaewa</a>
+</div>
+
+<div class="body">
+  <div class="row">
+    <div class="main">
+      <h2>The basics of JavaScript</h2>
+      <p>JavaScript is a programming language that makes web pages interactive. When you're using the web to engage in what seem like simple activities, there's often JavaScript code making things possible</p>
+
+      <h3>JavaScript, HTML, and CSS</h3>
+      <p>You might think that HTML is the language of the web, but usually JavaScript is referred to as the language of the web. To make it easier to understand, you might like to think of it like a house. HTML is the foundation and the structure, while CSS is the paint and decorations. In this analogy, JavaScript is the electricity - without it the house may look pretty, but nothing functions.</p>
+
+      <h3>Control Flow and Loops</h3>
+      <p>Control flow is a concept in programming that determines the order that a program runs its code. Loops are used to repeat a set of instructions until a particular set of conditions is met. Code runs in the order that it is written - from the first line in the file to the last line in the file. Structures like conditionals and loops change the flow, until the conditions have been met.</p>
+      <p>We're going to make a sandwich using control flow and loops:</p>
+      <p><ol>
+        <li><b>Check for bread</b> - if bread is available we pass the condition and move onto the next step. If bread is unavailable the loop closes.</li>
+        <li><b>Check for condiments</b> - if condiments are available we pass the condition and move onto the next step. If condiments are unavailable, we won't be able to make a tasty sandwich so the loop closes.</li>
+        <li><b>Check for toppings</b> - we can actually break this step down more granularly - e.g., do we have Ham? If no, do we have Lunch Meat? We check for toppings, until our preferred toppings are available, or alternatives are provided. If no toppings are available we can't make a sandwich, so we close the loop. </li>
+        <li><b>Place toppings and condiments on bread</b> - finally, we can put our toppings (in order) and our condiments on a slice of bread. We can also include a check that the sandwich has a slice of bread added to the top.</li>
+      </ol></p>
+
+      <p>And there we have it! The coding sandwich! Tasty!</p>
+
+      <h3>Document Object Model (DOM)</h3>
+      <p>The DOM is a programming interface. It translates the content of an HTML document into an object that programming languages like JavaScript can access and modify. HTML events are things that happen to HTML. When JavaScript is used in HTML pages, JavaScript can react on these events. Some examples of events are:
+        <ul>
+          <li>An HTML button was clicked</li>
+          <li>A form is submitted</li>
+          <li>The page is loaded</li>
+        </ul>
+      </p>
+      <p>Most web page events are driven by non-HTML code, so virtually all web pages rely on the DOM to display and function correctly.</p>
+
+      <h3>Accessing data from arrays and objects</h3>
+      <p>Arrays and objects are ways to store data in JavaScript. Arrays store lists of items, while objects are used to store key-value pairs. Here's an example of key-value pairs using a grocery list. The key is the name of the item and the value is the quantity of items required.</p>
+
+      <table>
+        <tr>
+          <th>Item</th>
+          <th>Quantity</th>
+        </tr>
+        <tr>
+          <td>Apples</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>Bananas</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>Milk</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>Bread</td>
+          <td>2</td>
+        </tr>
+      </table>
+
+      <p>Javascript code could than be used to display the value for the key on the webpage where required. A loop could be used to calculate the quantity of the key value, so that it updates dynamically. That way, every time an item from the grocery list is added to the cart, the value doesn't need to be recoded.</p>
+
+      <h3>Functions</h3>
+
+      <p>Functions are bits of code that perform specific tasks. Functions are useful, because they allow you to reuse code. You could write a function that sums multiple values, and then reuse that function every time you're required to add values together.</p>
+
+    </div>
+  </div>
+</div>
+</body>
+
+</html>
